@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuil | Portfolio Joel MITONDO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        body {font-family: 'Inter', sans-serif;}
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 flex flex-col min-h-screen">
+    <header class="fixed top-0 w-full z-50 pax-4 py-6">
+        <div class="max-w-7xl mx-auto bg-white/80 backdrop-blur-md border border-white/20 shadow-lg rounded-2xl px-6 py-4 flex items-center 
+        justify-between transition-all duration-300">
+            <div class="flex items-center space-x-2">
+                <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shadow-inner">
+                    <span class="text-white font-black text-xs">JM</span>
+                </div>
+                <h1 class="text-xl font-extrabold tracking-tighter text-gray-900 uppercase">
+                    Joel <span class="text-blue-600">Mitondo</span>
+                </h1>
+            </div>
+            <nav class="hidden md:block md:space-x-1 lg:space-x-8">
+                <ul class="flex items-center flex-wrap space-x-8 text-xs font-bold uppercase tracking-widest text-gray-600">
+                    <a href="CODES/HTML-TAILWINDS/parcours.html" class="hover:text-blue-600 transition-colors">Parcours</a>
+                    <a href="CODES/HTML-TAILWINDS/experiences.html" class="hover:text-blue-600 transition-colors">Expériences</a>
+                    <a href="CODES/HTML-TAILWINDS/projets.html" class="hover:text-blue-600 transition-colors">Projets</a>
+                    <a href="CODES/HTML-TAILWINDS/apropos.html" class="hover:text-blue-600 transition-colors">A Propos</a>
+                    <a href="CODES/HTML-TAILWINDS/contacts.html" class="bg-blue-600 text-white px-5 py-2.5 rounded-xl hover:bg-blue-700 transition-all 
+                        shadow-md shadow-blue-200 md:px-2 md:py-1.5 lg:px-5 lg:py-2.5">Contact</a>
+                </ul>
+            </nav>
+            <div class="relative block md:hidden ">
+                <button id="menuToggle" onclick="menu.hidden ^= 1"><img class="cursor-pointer" src="IMAGES/ICONS-LOGOS/menu.svg" alt="logo de trois barre du menu"></button>
+                <aside id="menu" hidden>
+                    <nav class="absolute z-50 right-1">
+                        <ul class="flex flex-col space-y-3 text-xs font-bold uppercase tracking-widest text-gray-600 divide-y divide-solid 
+                            divide-gray-300 backdrop-blur-md border border-white/20 shadow-lg rounded-2xl px-5 py-4 gap-2">
+                            <a href="index.html" class="hover:text-blue-600 transition-colors">Acceuil</a>
+                            <a href="CODES/HTML-TAILWINDS/parcours.html" class="hover:text-blue-600 transition-colors">Parcours</a>
+                            <a href="CODES/HTML-TAILWINDS/experiences.html" class="hover:text-blue-600 transition-colors">Expériences</a>
+                            <a href="CODES/HTML-TAILWINDS/projets.html" class="hover:text-blue-600 transition-colors">Projets</a>
+                            <a href="CODES/HTML-TAILWINDS/apropos.html" class="hover:text-blue-600 transition-colors">A Propos</a>
+                            <a href="CODES/HTML-TAILWINDS/contacts.html" class="bg-blue-600 text-white px-5 py-2.5 hover:bg-blue-700 transition-all 
+                                shadow-md shadow-blue-200">Contacts</a>
+                        </ul>
+                    </nav>
+                </aside>
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

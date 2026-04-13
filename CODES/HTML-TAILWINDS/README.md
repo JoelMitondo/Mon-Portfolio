@@ -54,4 +54,5 @@ Je suis toujours ouvert à de nouvelles opportunités de collaboration, que ce s
 * **WhatsApp :** (+243) 82 33 10 484
 
 ---
+**Version :** 1.0.0
 *Réalisé avec passion par Joël MITONDO — 2026*

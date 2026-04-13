@@ -53,4 +53,5 @@ Je suis toujours ouvert à de nouvelles opportunités de collaboration, que ce s
 * **WhatsApp :** https://we.me/243823310484
 
 ---
-*Réalisé avec passion par Joel MITONDO — 2026*
+**Version :** 1.0.0
+*Réalisé avec passion par Joël MITONDO — 2026*

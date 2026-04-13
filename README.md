@@ -5,7 +5,7 @@ Bienvenue sur le dépôt de mon portfolio professionnel. Ce projet est une vitri
 ##  Aperçu du Projet
 Ce portfolio a été conçu pour présenter mes compétences en développement web Full Stack tout en mettant en avant mes initiatives entrepreneuriales (**NMS Tech**, **SABES**).
 
-**Lien du site en direct :** [Cliquez sur ce lien pour visionner le site](joelmitondo.github.io/Mon-Portfolio/)
+**Lien du site en direct :** [Cliquez sur ce lien pour visionner le site](https://joelmitondo.github.io/Mon-Portfolio/)
 ---
 
 ## Stack Technique

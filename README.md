@@ -54,4 +54,5 @@ Je suis toujours ouvert à de nouvelles opportunités de collaboration, que ce s
 
 ---
 **Version :** 1.0.0
-*Réalisé avec passion par Joël MITONDO — 2026*
+
+* *Réalisé avec passion par Joël MITONDO — 2026*

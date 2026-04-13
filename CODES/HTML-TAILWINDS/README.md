@@ -9,7 +9,7 @@ Ce portfolio a été conçu pour présenter mes compétences en développement w
 
 ---
 
-## 🛠️ Stack Technique
+## Stack Technique
 Pour ce projet, j'ai privilégié des technologies modernes pour garantir performance, rapidité et un design haut de gamme :
 
 * **Frontend :** HTML5, Tailwind CSS (Design System)
@@ -19,7 +19,7 @@ Pour ce projet, j'ai privilégié des technologies modernes pour garantir perfor
 
 ---
 
-## 🧬 Un Parcours Multidisciplinaire
+## Un Parcours Multidisciplinaire
 Mon profil se distingue par une polyvalence rare qui nourrit ma vision de développeur :
 
 1.  **Technologie :** Apprenant à la **Kadea Academy**, spécialisé en JavaScript et architectures modernes.
@@ -29,29 +29,29 @@ Mon profil se distingue par une polyvalence rare qui nourrit ma vision de dével
 
 ---
 
-## 📂 Structure du Projet
+## Structure du Projet
 Le site est organisé en sections stratégiques :
 * **Hero Section :** Introduction impactante.
-* **À Propos :** Synthèse personnelle et valeurs.
+* **Experiences :** La liste des compétences acquises.
 * **Parcours :** Timeline interactive (du Primaire à Kadea).
 * **Projets :** Galerie de réalisations tech.
-* **Témoignages :** Preuve sociale de collaborateurs et partenaires.
+* **À Propos et Témoignage:** Synthèse personnelle et valeurs, ainsi que la preuve sociale de collaborateurs et partenaires..
 * **Contact :** Formulaire et accès direct vers mes réseaux.
 
 ---
 
-## 📸 Aperçu Visuel
+## Aperçu Visuel
 > *Ajoutez ici une capture d'écran de votre page d'accueil après le déploiement.*
 
 ---
 
-## 📬 Me Contacter
+## Me Contacter
 Je suis toujours ouvert à de nouvelles opportunités de collaboration, que ce soit pour des projets web ambitieux ou des initiatives entrepreneuriales.
 
-* **📍 Localisation :** Kinshasa, RD Congo
-* **📧 Email :** Mitondomohindo@gmail.com
-* **💼 LinkedIn :** [Votre profil LinkedIn]
-* **📞 WhatsApp :** (+243) 82 33 10 484
+* **Localisation :** Kinshasa, RD Congo
+* **Email :** Mitondomohindo@gmail.com
+* **LinkedIn :** je veux insérer avec les autres liens des mes resaeaux sociaux
+* **WhatsApp :** (+243) 82 33 10 484
 
 ---
 *Réalisé avec passion par Joël MITONDO — 2026*

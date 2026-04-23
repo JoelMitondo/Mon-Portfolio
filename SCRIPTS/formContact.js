@@ -1,5 +1,6 @@
 
-document.getElementById('contactForm').addEventListener('submit', function(e) {
+const formContact= document.querySelector('.formContact')
+formContact.addEventListener('submit', function(e) {
     e.preventDefault();
 
     const notification = document.getElementById('notification');

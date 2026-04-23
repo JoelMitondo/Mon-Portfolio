@@ -1,25 +1,35 @@
-// Recupération des données sur le formulaire contact et le formulaire lui-meme (en bloquant l'evenement submit par defaut)
-const formContact = document.querySelector(".formContact")
-formContact.addEventListener("submit", (event)=>{
-    event.preventDefault()
 
-    const prenomUtilisateur = document.getElementById("prenom").value
-    const nomUtilisateur = document.getElementById("nom").value
-    const emailUtilisateur = document.getElementById("email").value
-    const sujetUtilisateur = document.getElementById("sujet").value
-    const messageUtilisateur = document.getElementById("message").value
-    const monNumero = 243823310484
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault();
 
-    const textePredefini = "Bonjour Joel MITONDO, je suis " + prenomUtilisateur + nomUtilisateur + ".%0A" +
-                            "*Sujet :*" + sujetUtilisateur + ".%0A" +
-                            "*Mon message est :*%0A" + messageUtilisateur + "%0A"
-                            "*Mon Email est là : *" + emailUtilisateur
+    const notification = document.getElementById('notification');
     
-    const lienVersWhatsapp = "https://wa.me/" + monNumero + "?text=" + textePredefini
+    // Affichage de la notification avec une petite animation bounce
+    notification.classList.remove('hidden');
+    notification.classList.add('flex', 'animate-bounce'); 
 
-    window.open(lienVersWhatsapp, '_blank')
-})
+   
+    const nom = document.getElementById('nom').value;
+    const prenom = document.getElementById('prenom').value;
+    const sujet = document.getElementById('sujet').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+    const numero = "243823310484";
 
-// maintenant, la construction de mon message
+   
+    const texteFinal = `Bonjour Joel MITONDO, %0Aje suis ${prenom} ${nom}.%0A*Sujet :* ${sujet}%0A%0A *Message :*%0A${message} %0A%0A*Mon Email :* ${email}`;
+    const lienWhatsApp = `https://wa.me/${numero}?text=${texteFinal}`;
 
+    // Délai de 2 secondes avant la redirection
+    setTimeout(function() {
+        window.open(lienWhatsApp, '_blank');
+        
+        // Optionnel : recacher la notification après le départ
+        setTimeout(() => {
+            notification.classList.add('hidden');
+            notification.classList.remove('flex');
+        }, 1000);
+        
+    }, 2000); 
+});
 

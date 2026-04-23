@@ -29,8 +29,8 @@ formContact.addEventListener('submit', function(e) {
         setTimeout(() => {
             notification.classList.add('hidden');
             notification.classList.remove('flex');
-        }, 1000);
+        }, 3000);
         
-    }, 2000); 
+    }, 4000); 
 });
 

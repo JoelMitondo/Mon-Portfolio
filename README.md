@@ -53,6 +53,27 @@ Je suis toujours ouvert à de nouvelles opportunités de collaboration, que ce s
 * **WhatsApp :** https://we.me/243823310484
 
 ---
-**Version :** 1.0.0
+## Évolution du Projet : Versioning
+
+### Version 1.0 (Initiale)
+*L'objectif était de poser les bases structurelles et visuelles sans scripts dynamiques.*
+* **Technologies :** HTML5, Tailwind CSS.
+* **Focus :** Design (Glassmorphism), sémantique HTML, SEO de base.
+* **Limites :** * Formulaire de contact purement esthétique (non fonctionnel).
+    * Site statique sans interactivité utilisateur.
+
+### Version 1.1 (Actuelle)
+*Introduction de l'interactivité et optimisation de l'expérience utilisateur (UX).*
+* **Nouveautés JavaScript :**
+    * **Système de contact dynamique :** Récupération des données du formulaire pour envoi direct vers WhatsApp.
+    * **Feedback utilisateur :** Ajout d'une notification de redirection avec animation (Spinner).
+* **Améliorations SEO & Partage :**
+    * Implémentation complète des balises Open Graph (OG) pour un aperçu professionnel sur WhatsApp/LinkedIn.
+* **Légal :**
+    * Ajout des pages Mentions Légales et Politique de Confidentialité.
+
+
+---
+**Version :** 1.1.0
 
 * *Réalisé avec passion par Joël MITONDO — 2026*
